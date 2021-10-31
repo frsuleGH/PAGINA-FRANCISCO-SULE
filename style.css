@@ -84,7 +84,7 @@ display: block;
 	color: var(--black)
 }
 
- @media (min-width: 720px) {.navigation{flex-direction: row;
+ @media (min-width: 1000px) {.navigation{flex-direction: row;
 	justify-content: space-between;}}
 
 
