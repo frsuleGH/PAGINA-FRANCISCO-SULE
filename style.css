@@ -10,7 +10,7 @@ html{font-size: 62.5%;
 box-sizing: border-box;}
 *, *:before, *:after {
 	box-sizing: inherit;
-	scroll-snap-type: y mandatory;
+	
   }
   
 	
@@ -121,11 +121,9 @@ align-items: center;
 	display: grid;	
 }
 
-.services, .navigation, .form{
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
 
-}
+
+
 
 @media (min-width: 1000px) {.services{
 	display: grid;
