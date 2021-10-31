@@ -126,6 +126,7 @@ align-items: center;
 }
 
 @media (min-width: 800px) {.services{
+	align-items: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 1rem;
