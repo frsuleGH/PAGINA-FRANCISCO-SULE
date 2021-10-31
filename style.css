@@ -87,7 +87,7 @@ display: block;
 }
 
  @media (min-width: 1000px) {.navigation{flex-direction: row;
-	justify-content: space-between; font-size: 4rem;}}
+	justify-content: space-between; font-size: 8rem;}}
 
 
 .hero{
