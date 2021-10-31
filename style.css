@@ -91,6 +91,8 @@ display: block;
 	justify-content: space-between; font-size: 8rem;}}
 
 
+.city{font-size: 2rem;}
+
 .hero{
 background-image: url(foto.jpg);
 background-repeat: no-repeat;
