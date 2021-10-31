@@ -15,7 +15,7 @@ box-sizing: border-box;}
 	  
   }
 	
-body{font-size: 20px;
+body{font-size: 18px;
 font-family:'Krub', sans-serif;
 background-image: linear-gradient(to top,#dfe9f3 0%, var(--white) 100%);
 }
