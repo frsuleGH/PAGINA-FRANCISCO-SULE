@@ -100,7 +100,8 @@ border-radius: 2rem;}
 background-image: url(foto.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: 450px;	
+height: 45rem;
+background-position: center centerss;	
 position: relative;
 margin-bottom: 2rem;   
 }
