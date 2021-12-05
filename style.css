@@ -93,9 +93,7 @@ display: block;
 
 .city {font-size: 2rem;
 }
-span{color: var(--white);
-background-color: rgba(82,81,82,0.30);
-border-radius: 2rem;}
+span{color: var(--white);}
 .hero{
 background-image: url(programacion_portada.jpg);
 background-repeat: no-repeat;
