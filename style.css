@@ -97,11 +97,10 @@ span{color: var(--white);
 background-color: rgba(82,81,82,0.30);
 border-radius: 2rem;}
 .hero{
-background-image: url(foto.jpg);
+background-image: url(programacion_portada.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: 45rem;
-background-position: center;	
+height: 50rem;
 position: relative;
 margin-bottom: 2rem;   
 }
