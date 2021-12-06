@@ -97,7 +97,7 @@ display: block;
 }
 
  @media (min-width: 1000px) {.navigation{flex-direction: row;
-	justify-content: space-between; }}
+	justify-content:space-evenly}}
 
 
 .city {font-size: 2rem;
