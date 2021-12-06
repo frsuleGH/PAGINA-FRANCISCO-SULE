@@ -66,7 +66,7 @@ margin: 0 auto 0 auto;
 }
 .button:hover{cursor: pointer;}
 
-@media (min-width: 992px){ .button{width: 30rem;
+@media (min-width: 992px){ .button{display: block;
 	
 }}
 
