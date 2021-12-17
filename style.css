@@ -102,7 +102,7 @@ span{color: var(--white);}
 background-image: url(programacion_portada.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: 50rem;
+height: 30rem;
 position: relative;
 margin-bottom: 2rem;   
 }
