@@ -38,9 +38,10 @@ h1,h2,h3,s p{text-align: center;}
 background-color: var(--white);
 padding: 2rem;
 border-radius: 1rem;
-
 }
-	
+
+
+
 
 .container{
 	max-width: 120rem;
@@ -100,6 +101,7 @@ display: block;
 span{color: var(--white);}
 .hero{
 background-image: url(programacion_portada.jpg);
+background-image: url(programacion_portada.webp);
 background-repeat: no-repeat;
 background-size: cover;
 height: 45rem;
@@ -159,9 +161,10 @@ font-weight: normal;
 
 .service h4{
 	color: var(--black);
-	font-weight: bold;
+	font-weight: 400;
+	font-family: sans-serif;
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 1.7rem;
 	}
 
 
@@ -174,6 +177,12 @@ font-weight: normal;
 	justify-content: center;
 	align-items: center;
 
+}
+
+@media (min-width: 768px) {
+	.proyectos{display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;}
 }
 
 .form{ background-color: var(--grey);
