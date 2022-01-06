@@ -107,13 +107,13 @@ position: relative;
 margin-bottom: 2rem;   
 }
 
-	@media (min-width: 768px) {.hero{height: 50rem;}
+	@media (min-width: 768px) {.hero{height: 60rem;}
 		
 	}
 
 
 .content{position: absolute;
-	margin-top: 5rem;
+	margin-top: 10rem;
 	background-color: rgba(0,0,0,0, 0.7);
 width: 100%;
 height: 100%;
