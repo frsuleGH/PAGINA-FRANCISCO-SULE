@@ -153,8 +153,16 @@ align-items: center;
 .service h3{
 color: var(--secondary);
 font-weight: normal;
-
 }
+
+.service h4{
+	color: var(--black);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2rem;
+	}
+
+
 .service .icons{
 	height: 15rem;
 	width: 15rem;
