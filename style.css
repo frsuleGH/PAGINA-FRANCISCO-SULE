@@ -68,6 +68,24 @@ margin: 0 auto 0 auto;
 
 
 
+.button2{
+	background-color:var(--black);
+	color: var(--primary);
+	padding: 1rem 3rem;
+	margin-top: 1rem;
+	font-size: 2rem;
+	display: block;
+	max-width: 40rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: .5rem;
+	width: 90%;
+	text-align: center;	
+	border: none;
+}
+.button2:hover{cursor: pointer;}
+
 
 .nav-bg{
 	background-color: var(--secondary);
