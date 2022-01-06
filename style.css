@@ -17,7 +17,7 @@ box-sizing: border-box;}
 	
 body{
 font-family:'Krub', sans-serif;
-background-image: linear-gradient(to top,#dfe9f3 0%, var(--white) 100%);
+background: linear-gradient(to top,#dfe9f3 0%, var(--white) 100%);
 }
 
 h1{font-size: 3rem;}
