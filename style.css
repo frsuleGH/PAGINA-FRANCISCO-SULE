@@ -17,7 +17,9 @@ box-sizing: border-box;}
 	
 body{
 font-family:'Krub', sans-serif;
-background: linear-gradient(to top,#dfe9f3 0%, var(--white) 100%);
+background-image: url(fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 h1{font-size: 3rem;}
@@ -46,6 +48,9 @@ border-radius: 1rem;
     box-shadow: -2px 7px 12px 6px rgb(255 255 255 / 86%);
 }
 
+
+section ::after body{margin-bottom: 2rem;
+margin-top: 2rem;}
 
 .container{
 	max-width: 120rem;
@@ -209,6 +214,9 @@ font-weight: normal;
 		grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;}
 }
+
+#contacto{margin-top: 2rem;}
+#sobremi{margin-bottom: 4rem;}
 
 .form{ background-color: var(--grey);
 	width: min(60rem, 100%);
