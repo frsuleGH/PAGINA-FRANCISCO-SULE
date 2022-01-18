@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function iniciarApp(){
     scrollNav();
+   
 }
 
 function scrollNav(){
