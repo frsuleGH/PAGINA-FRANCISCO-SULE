@@ -8,7 +8,7 @@ function iniciarApp(){
 }
 
 function scrollNav(){
-    const enlaces = document.querySelectorAll('.navigation a');
+    const enlaces = document.querySelectorAll('.navegacion a');
     enlaces.forEach(enlaces =>{
         enlaces.addEventListener('click', function(e){
             e.preventDefault();
