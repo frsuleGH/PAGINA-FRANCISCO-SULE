@@ -103,6 +103,7 @@ margin: 0 auto 0 auto;
 	background-color: var(--secondary);
 	
 }
+
 .navigation{
 display: flex;
 	flex-direction: column;
@@ -164,8 +165,6 @@ align-items: center;
 .services{
 	display: grid;	
 }
-
-
 
 
 
