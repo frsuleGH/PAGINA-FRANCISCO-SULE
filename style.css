@@ -98,7 +98,16 @@ margin: 0 auto 0 auto;
 }
 .boton2:hover{cursor: pointer;}
 
-
+@media (min-width: 768px) {
+    .header.fijo {
+      left: 0;
+	  background-color: var(--white);
+      top: 0;
+      position: fixed;
+      width: 100%;
+      box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem #333;
+    }
+  }
 .nav-bg{
 	background-color: var(--secondary);
 	
