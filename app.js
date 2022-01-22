@@ -4,8 +4,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function iniciarApp(){
     scrollNav();
-   
+    navegacionFija();
 }
+
+
 
 function scrollNav(){
     const enlaces = document.querySelectorAll('.navegacion a');
@@ -21,5 +23,19 @@ function scrollNav(){
 }
 
 
+function navegacionFija(){
+    const barra = document.querySelector('.header');
+    const servicios = document.querySelector('.fondo');
+    
 
+    window.addEventListener('scroll', function(){
+        if( servicios.getBoundingClientRect().top < 0 ){
+            barra.classList.add('fijo');
+          
+        } else{
+            barra.classList.remove('fijo');
+            
+        }
+    });
+}
 
